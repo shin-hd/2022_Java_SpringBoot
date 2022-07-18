@@ -1,0 +1,24 @@
+management:
+  endpoints:
+    web:
+      base-path: /custom-path
+      exposure:
+        include: "*"
+        exclude: threaddump, heapdump
+    jmx:
+      exposure:
+        include: "*"
+        exclude: threaddump, heapdump
+  endpoint:
+    shutdown:
+      enabled: true
+    caches:
+      enabled: false
+    health:
+      show-details: always
+info:
+  organization:
+    name: wikibooks
+  contact:
+    email: thinkground.flature@gmail.com
+    phoneNumber: 010-1234-5678

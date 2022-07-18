@@ -1,0 +1,91 @@
+[2022-07-11 00:19:02.760] [INFO ] [Test worker] com.springboot.advanced_jpa.data.repository.ProductRepositoryTest Starting ProductRepositoryTest using Java 18.0.1.1 on DESKTOP-OA41U31 with PID 16356 (started by newy5 in C:\Users\newy5\Desktop\°øºÎ\spring\advanced_jpa)
+[2022-07-11 00:19:02.769] [INFO ] [Test worker] com.springboot.advanced_jpa.data.repository.ProductRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-07-11 00:19:04.155] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-11 00:19:04.237] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+[2022-07-11 00:19:05.081] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-11 00:19:05.185] [INFO ] [Test worker] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-07-11 00:19:05.451] [INFO ] [Test worker] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-11 00:19:05.620] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-07-11 00:19:05.714] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-07-11 00:19:05.750] [INFO ] [Test worker] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB106Dialect
+[2022-07-11 00:19:06.510] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-11 00:19:06.520] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-11 00:19:08.008] [WARN ] [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-11 00:19:09.467] [INFO ] [Test worker] com.springboot.advanced_jpa.data.repository.ProductRepositoryTest Started ProductRepositoryTest in 7.228 seconds (JVM running for 8.746)
+[2022-07-11 00:19:10.048] [INFO ] [Test worker] TestLogger FindByName Result
+[2022-07-11 00:19:10.063] [INFO ] [Test worker] TestLogger Product(super=BaseEntity(createdAt=2022-07-11T00:19:09.980959, updatedAt=2022-07-11T00:19:09.980959), number=3, name=Ææ, price=500, stock=50)
+[2022-07-11 00:19:10.063] [INFO ] [Test worker] TestLogger Product(super=BaseEntity(createdAt=2022-07-11T00:19:09.912960, updatedAt=2022-07-11T00:19:09.912960), number=1, name=Ææ, price=1000, stock=100)
+[2022-07-11 00:19:10.064] [INFO ] [Test worker] TestLogger Product(super=BaseEntity(createdAt=2022-07-11T00:19:09.963958, updatedAt=2022-07-11T00:19:09.963958), number=2, name=Ææ, price=5000, stock=300)
+[2022-07-11 00:19:10.092] [INFO ] [Test worker] TestLogger PageContent
+[2022-07-11 00:19:10.093] [INFO ] [Test worker] TestLogger Product(super=BaseEntity(createdAt=2022-07-11T00:19:09.912960, updatedAt=2022-07-11T00:19:09.912960), number=1, name=Ææ, price=1000, stock=100)
+[2022-07-11 00:19:10.094] [INFO ] [Test worker] TestLogger Product(super=BaseEntity(createdAt=2022-07-11T00:19:09.963958, updatedAt=2022-07-11T00:19:09.963958), number=2, name=Ææ, price=5000, stock=300)
+[2022-07-11 00:19:10.111] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.113] [INFO ] [Test worker] TestLogger Product Number : 3
+[2022-07-11 00:19:10.114] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Price : 500
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Stock : 50
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Number : 1
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Price : 1000
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Stock : 100
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.115] [INFO ] [Test worker] TestLogger Product Number : 2
+[2022-07-11 00:19:10.116] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.116] [INFO ] [Test worker] TestLogger Product Price : 5000
+[2022-07-11 00:19:10.116] [INFO ] [Test worker] TestLogger Product Stock : 300
+[2022-07-11 00:19:10.116] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.126] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.126] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.127] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.137] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger Product Price : 500
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger Product Price : 1000
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger Product Price : 5000
+[2022-07-11 00:19:10.138] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.152] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.152] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger Product Name : Ææ
+[2022-07-11 00:19:10.153] [INFO ] [Test worker] TestLogger -----------------
+[2022-07-11 00:19:10.180] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-11 00:19:10.183] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-07-11 00:19:10.199] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-07-11 01:53:03.717] [INFO ] [Test worker] com.springboot.advanced_jpa.data.repository.support.ProductRepositoryTest Starting ProductRepositoryTest using Java 18.0.1.1 on DESKTOP-OA41U31 with PID 17444 (started by newy5 in C:\Users\newy5\Desktop\°øºÎ\spring\advanced_jpa)
+[2022-07-11 01:53:03.719] [INFO ] [Test worker] com.springboot.advanced_jpa.data.repository.support.ProductRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2022-07-11 01:53:05.205] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-07-11 01:53:05.299] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+[2022-07-11 01:53:06.239] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-07-11 01:53:06.334] [INFO ] [Test worker] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-07-11 01:53:06.596] [INFO ] [Test worker] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-07-11 01:53:06.758] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2022-07-11 01:53:06.857] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2022-07-11 01:53:06.891] [INFO ] [Test worker] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB106Dialect
+[2022-07-11 01:53:07.644] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-07-11 01:53:07.656] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-11 01:53:09.319] [WARN ] [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-07-11 01:53:10.865] [INFO ] [Test worker] com.springboot.advanced_jpa.data.repository.support.ProductRepositoryTest Started ProductRepositoryTest in 7.656 seconds (JVM running for 9.125)
+[2022-07-11 01:53:11.311] [INFO ] [Test worker] support/ProductRepositoryTest Product(super=BaseEntity(createdAt=2022-07-11T01:53:11.236272500, updatedAt=2022-07-11T01:53:11.236272500), number=1, name=Ææ, price=1000, stock=100)
+[2022-07-11 01:53:11.434] [INFO ] [Test worker] support/ProductRepositoryTest Product(super=BaseEntity(createdAt=2022-07-11T01:53:11.236272, updatedAt=2022-07-11T01:53:11.236272), number=1, name=Ææ, price=1000, stock=100)
+[2022-07-11 01:53:11.482] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-07-11 01:53:11.484] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2022-07-11 01:53:11.489] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
