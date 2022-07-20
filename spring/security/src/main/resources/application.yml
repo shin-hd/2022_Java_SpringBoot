@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3307/springboot
+    driverClassName: org.mariadb.jdbc.Driver
+    username: root
+    password: password1!
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jpa:
+    properties:
+      hibernate:
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+springboot:
+  jwt:
+    secret: flature!@#
