@@ -1,28 +1,30 @@
-package ch2;
+package ch2.item3;
 
-import java.util.function.Supplier;
-
+/*
+ * private 생성자나 열거 타입으로 싱글턴임을 보증하라
+ * 
+ * singleton : 인스턴스를 하나만 생성할 수 있는 클래스
+ */
 public class Item3 {
 
-    /*
-     * private 생성자나 열거 타입으로 싱글턴임을 보증하라
-     *
-     */
     public static void main(String[] args) {
 
     }
-
-
 
 }
 
 /*
  * 싱글턴 만드는 방식 1
+ * private 생성자 + public static final 인스턴스
  *
  * 장점
  * 1. 싱글턴임이 명백
  *    다른 객체를 참조할 수 없음
  * 2. 간결함
+ *
+ * 단점
+ * 1. 리플렉션 API로 private 생성자 호출 가능
+ *    -> 두 번째 객체 생성 시도 시 예외
  */
 class Singleton1 {
     public static final Singleton1 INSTANCE = new Singleton1();
@@ -32,6 +34,8 @@ class Singleton1 {
 
 /*
  * 싱글턴 만드는 방식 2
+ * private 생성자 + private static final 인스턴스
+ * + public static 정적 팩토리 메소드
  * 
  * 장점
  * 1. 싱글턴 아니게 바꾸기 쉬움
@@ -51,10 +55,15 @@ class Singleton2 {
 
 /*
  * 싱글턴 만드는 방식 3
+ * 원소 하나인 열거 타입
  *
+ * 장점
  * 1. 간결
  * 2. 직렬화 쉬움
  * 3. 복잡한 직렬화, 리플렉션 공격에서 추가 인스턴스 생성 막음
+ *
+ * 단점
+ * 1. Enum 외의 클래스 상속 시 사용 불가
  */
 enum Singleton3 {
     INSTANCE;
