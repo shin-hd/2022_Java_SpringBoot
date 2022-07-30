@@ -27,7 +27,7 @@ import java.time.Instant;
  * clone, readObject 메소드도 생성자와 비슷한 효과를 내므로
  * 재정의 가능 메소드를 호출하면 안됨
  * 5. Serializable을 구현한 상속용 클래스가
- * readResolve나 write 메소드를 갖는다면 protected로 선언해야 함
+ * readResolve나 writeReplace 메소드를 갖는다면 protected로 선언해야 함
  *
  * 클래스를 상속용으로 설계하려면 많은 노력이 들고 제약도 상당함
  * 그럼 일반 구체 클레스는?
@@ -42,9 +42,6 @@ import java.time.Instant;
  *
  * 표준 인터페이스를 구현하지 않은 구체 클래스라도
  * 상속을 허용해야 한다면 문서화
- *
- * 
- *
  */
 public class item19 {
     public static void main(String[] args) {
