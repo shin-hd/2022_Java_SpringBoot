@@ -41,7 +41,7 @@ package ch5.item33;
  *
  *  Class<?> 타입의 객체를 한정적 타입 토큰을 받는 메소드에 넘기려면
  * 객체를 Class<? extends Annotation>처럼 형변환할 수 있지만
- * 이 형변환은 비검사이므로 경고 발생
+ * 이형변환은 비검사이므로 경고 발생
  * Class 클래스는 이런 형변환을 안전하게 수행하는 asSubClass 메소드를 제공
  * asSubClass 메소드는 호출된 인스턴스 자신의 Class 객체를 인수가 명시한 클래스로 형변환
  * 성공하면 인수 클래스 객체를 반환, 실패하면 ClassCastException 던짐
